@@ -17,4 +17,7 @@ class Post(models.Model):
         self.save()
 
     def __str__(self):
+        """
+        It decides what to display when access objects from console
+        """
         return self.title
